@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tu Página Web</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"> <!-- Agrega tu archivo CSS personalizado aquí -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light"> <!-- Cambia "bg-light" a "bg-dark" para el color de fondo -->
+            <div class="container-md">
+                <!-- Logo pegado a la izquierda -->
+                <a class="navbar-brand" href="#"><img src="logo.png" alt="Tu Logo" class="img-fluid logo"> </a>
+            </div>
+            <div class="container-md">
+                <!-- Elementos de navegación pegados a la derecha -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html" style="color: #cacacaef;"><strong>Soy cliente</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" style="color: #cacacaef;"><strong>Inicio</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Planes.html" style="color: #cacacaef;"><strong>Planes y tarifas</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="SobreMi.html" style="color: #cacacaef;"><strong>Sobre mí</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contacto.html" style="color: #cacacaef;"><strong>Contacto</strong></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Barra de navegación lateral -->
+            <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
+                <div class="position-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                Panel de Usuario
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#facturas">
+                                Historial de Facturas
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#dieta">
+                                Dieta 
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#entrenamiento">
+                                Entrenamiento 
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Contenido principal -->
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <!-- Historial de Facturas -->
+                <section id="facturas" class="mb-5">
+                    <h2>Historial de Facturas</h2>
+                    <!-- Aquí se muestra el historial de facturas del usuario -->
+                </section>
+
+                <!-- Dieta Personalizada -->
+                <section id="dieta" class="mb-5">
+                    <h2>Dieta Personalizada</h2>
+                    <!-- Aquí se muestra la dieta personalizada del usuario -->
+                </section>
+
+                <!-- Entrenamiento Personalizado -->
+                <section id="entrenamiento">
+                    <h2>Entrenamiento Personalizado</h2>
+                    <!-- Aquí se muestra el entrenamiento personalizado del usuario -->
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <footer class="mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h2>Contáctanos</h2>
+              <p><strong>Dirección:</strong> 123 Calle Principal, Ciudad</p>
+              <p><strong>Teléfono:</strong> (555) 123-4567</p>
+              <p><strong>Email:</strong> info@tusitio.com</p>
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="logo.png" alt="Tu Logo" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+              <h2>Síguenos en redes sociales</h2>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                </li>
+              </ul>
+            </div>
+            <div class="container mt-3">
+              <div class="row">
+                <div class="col text-center">
+                  <a href="#">Política de Privacidad</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+
+    <!-- Include Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
